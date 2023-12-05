@@ -1,0 +1,432 @@
+/* start shared css  header and body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  position: relative;
+  background-color: #faf8f8;
+}
+a {
+  text-decoration: none;
+  display: inline;
+}
+/* start navabar */
+.Nav {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background-color: #faf8f8;
+}
+.navbar {
+  display: flex;
+  height: 50px;
+  background-color: #13112d;
+}
+.split {
+  color: #5e5d76;
+  margin: 0 10px 0 10px;
+}
+.navbar p {
+  color: white;
+  display: inline;
+}
+.navbar .text {
+  color: #c3c1da;
+  transition: 0.3s color linear;
+  cursor: pointer;
+}
+.text:hover {
+  color: #552cc8;
+  transition: 0.3s color linear;
+}
+
+.info {
+  display: inline-block;
+}
+.social {
+  display: inline-block;
+  margin-left: 500px;
+}
+.icons {
+  margin: 0 6px 0 6px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: flex-end;
+}
+.icons:hover {
+  color: #552cc8;
+}
+.icons-disable {
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0 6px 0 6px;
+  color: #5e5d76;
+  font-size: 13px;
+  align-self: flex-end;
+}
+.icons-disable:hover {
+  color: #552cc8;
+}
+/* end navbar */
+/* start page */
+.container2 {
+  margin: auto;
+  width: 950px;
+}
+.container2 img {
+  width: 100px;
+}
+.container2 p {
+  display: inline;
+  font-weight: 700;
+  font-size: 30px;
+  color: #051441;
+  margin-left: 100px;
+  text-align: center;
+}
+/* end page */
+/* start rows */
+.container1 {
+  margin: auto;
+  width: 1000px;
+}
+.container1 .row {
+  display: block;
+  width: 100%;
+}
+.container1 .row a {
+  color: #051441;
+  text-decoration: none;
+  display: inline;
+}
+.container1 .row .figure1 {
+  display: inline-block;
+  width: 200px;
+
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+/* 
+.container1 .row .figure2 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure3 {
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #f3af4e;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure4 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure5 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure6 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure7 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+}
+
+.container1 .row .figure8 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px 20px 20px 0px;
+  cursor: pointer;
+  padding: 30px 60px 30px 60px;
+  box-shadow: 0px 30px 40px 0px rgba(29, 7, 90, 0.08);
+} */
+
+.user {
+  background-color: #fa6fd1;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -2px;
+}
+.pencil {
+  background-color: #6fadfa;
+  border-radius: 50%;
+  padding: 17px;
+  font-size: 50px;
+  color: white;
+  margin-left: -2px;
+}
+.bookmark {
+  background-color: #f3af4e;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -2px;
+}
+.gear {
+  background-color: #aa6ffa;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -2px;
+}
+.star {
+  background-color: #fa6666;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -7px;
+}
+.gear2 {
+  background-color: #ffc300;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -7px;
+}
+.link {
+  background-color: #808080;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -7px;
+}
+.medal {
+  background-color: #fa6640;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  margin-left: -7px;
+}
+.figure1 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+/* 
+.figure2 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure3 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure4 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure5 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure6 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure7 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.figure8 p {
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+} */
+
+/* end rows */
+
+/* end shared css header and body */
+/* start form */
+.form-container {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+}
+.form {
+  background-color: white;
+  margin: auto;
+  width: 700px;
+  margin-top: 90px;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+.textg {
+  width: 50%;
+  text-align: justify;
+  display: inline-block;
+}
+.form h1 {
+  font-weight: 800;
+}
+.form p {
+  display: inline;
+}
+.form img {
+  width: 40%;
+  margin-left: 60px;
+}
+.form .btn {
+  background-color: #552cc8;
+  padding: 10px 14px;
+  border-color: #552cc8;
+}
+.form .btn:hover {
+  background-color: #fff;
+  padding: 10px 14px;
+  color: #552cc8;
+  border-color: #552cc8;
+}
+/* end form */
+/* start footer */
+.footer {
+  background-color: #ebeef6;
+  padding-bottom: 250px;
+}
+.footer img {
+  margin-top: -43px;
+  width: 90px;
+}
+.about,
+.links,
+.follow {
+  width: 20%;
+  display: inline-block;
+  margin-left: 120px;
+}
+/* about */
+.about {
+  margin-top: 200px;
+  font-family: sans-serif;
+}
+.about a {
+  color: #677294;
+  display: block;
+  margin-top: 15px;
+  transition: color 0.2s linear;
+}
+.about a:hover {
+  color: #6768e9;
+  transition: color 0.2s linear;
+}
+/* links */
+.links a {
+  color: #677294;
+  display: block;
+  margin-top: 15px;
+  transition: color 0.2s linear;
+}
+.links a:hover {
+  color: #6768e9;
+  transition: color 0.2s linear;
+}
+/* follow */
+
+.footer .social-footer {
+  margin: 14px 0 20px 0;
+}
+.follow .icons-footer {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 50%;
+  background-color: #e5e8f0;
+  color: #677294;
+  transition: 0.3s;
+}
+.follow .icons-footer:hover {
+  background-color: #00aff0;
+  color: white;
+  transition: 0.3s;
+}
+.follow .icons-footer-disable {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 50%;
+  background-color: #e5e8f0;
+  color: #677294;
+  cursor: unset;
+  transition: 0.3s;
+}
+.follow .icons-footer-disable:hover {
+  background-color: #00aff0;
+  transition: 0.3s;
+}
+.follow p {
+  display: inline-block;
+  margin: 10px 0 0 0;
+}
+.text-footer {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.text-footer:hover {
+  color: #8554e2;
+  transition: 0.3s;
+}
+/* end footer */
